@@ -2,7 +2,7 @@ baseURL = "https://akei23.github.io/"
 languageCode = "ja-jp"
 publishDir="public"
 hasCJKLanguage = true
-
+copyright="Kanzaki Akei       2020"
 title = "あけいログ"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
@@ -14,31 +14,35 @@ summaryLength = 50
 #googleAnalytics = "UA-123-45"
 #disqusShortname = "XYW"
 
+# enable to write html tags in Markdown.
+[markup.goldmark.renderer]
+  unsafe = true
+
 [permalinks]
   posts = "/:year/:month/:title/"
   page = "/:slug/"
 
 [[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+  name = "Twitter"
+  url = "https://twitter.com/kanzaki_klis/"
 
 #[[menu.sidebar]]
 #  name = "Link 2"
 #  url = "https://example.org"
 
 [[menu.navbar]]
-  name = "Link A"
-  url = "https://example.org"
+  name = "About"
+  url = "/about"
 
 
 # Theme variables
 #
 [params]
   # Site author
-  author = "Kanzaki Akei"
+  author = "神崎あけい"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "あけいの140字に収まりきらない雑記帳"
+  description = "あけいの備忘録/雑記帳"
 
   # Show header (default: true)
   #header_visible = true
@@ -74,7 +78,7 @@ summaryLength = 50
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "### 神崎あけい<br>おいしいものと旅行がすきです。"
+    about = "神崎の技術系備忘録と雑記です。[more →](/about)"
 
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
