@@ -2,7 +2,7 @@ baseURL = "https://akei23.github.io/"
 languageCode = "ja-jp"
 publishDir="public"
 hasCJKLanguage = true
-languageCode = "ja-jp"
+
 title = "あけいログ"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
@@ -22,23 +22,23 @@ summaryLength = 50
   name = "Link 1"
   url = "https://example.com"
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
-
-#[[menu.navbar]]
-#  name = "Link 1"
+#[[menu.sidebar]]
+#  name = "Link 2"
 #  url = "https://example.org"
+
+[[menu.navbar]]
+  name = "Link A"
+  url = "https://example.org"
 
 
 # Theme variables
 #
 [params]
   # Site author
-  author = "Your Name"
+  author = "Kanzaki Akei"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+  description = "あけいの140字に収まりきらない雑記帳"
 
   # Show header (default: true)
   #header_visible = true
@@ -74,7 +74,7 @@ summaryLength = 50
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    about = "### 神崎あけい<br>おいしいものと旅行がすきです。"
 
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
@@ -83,7 +83,7 @@ summaryLength = 50
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    twitter = "kanzaki_klis"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
@@ -96,4 +96,3 @@ summaryLength = 50
   #date_format = "02.01.2006"
 
 # vim: ts=2 sw=2 et
-
