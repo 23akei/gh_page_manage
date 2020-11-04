@@ -1,7 +1,7 @@
 ---
 title: "すでに文章書くのダルい"
 date: 2020-05-06T00:34:14+09:00
-draft: false
+draft: true
 categories: ["雑記","技術"]
 ---
 
